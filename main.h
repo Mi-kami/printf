@@ -8,6 +8,6 @@ typedef struct print
 }print_t;
 
 int _printf(const char *format, ...);
-
+int _putchar(char c);
 
 #endif /* MAIN_C */
