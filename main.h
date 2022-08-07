@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <sdtarg.h>
+#include <stdarg.h>
 #include <stdio.h>
 
 typedef struct print
