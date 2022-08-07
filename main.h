@@ -1,5 +1,7 @@
 #ifndef MAIN_C
 #define MAIN_C
+#include <sdtarg.h>
+#include <stdio.h>
 
 typedef struct print
 {
