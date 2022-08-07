@@ -9,5 +9,6 @@ typedef struct print
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int print_c(va_list c);
 
 #endif /* MAIN_C */
