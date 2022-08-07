@@ -14,8 +14,6 @@ int i = 0;
 if (str == NULL)
 str = "(null)";
 while (str[i])
-{
 _putchar(str[i++]);
 return (i);
-}
 }
