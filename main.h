@@ -1,5 +1,5 @@
-#ifndef MAIN_C
-#define MAIN_C
+#ifndef MAIN_H
+#define MAIN_H
 #include <sdtarg.h>
 #include <stdio.h>
 
@@ -13,4 +13,4 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int print_c(va_list c);
 int print_s(va_list s);
-#endif /* MAIN_C */
+#endif /* MAIN_H */
