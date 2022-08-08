@@ -1,4 +1,4 @@
-# _printf :memo: :pencil:
+# _printf :memo:
 
 A formatted output conversion C program completed as part of the low-level programming sprint at ALX Software Engineering program. The program is a pseudo- recreation of the C standard library function, `printf`.
 
