@@ -11,8 +11,8 @@ typedef struct print
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-int print_c(va_list c);
-int print_s(va_list s);
+int format_c(va_list valist, char *buffer, int *index);
+int format_s(va_list valist, char *buffer, int *index);
 int print_i(va_list i);
 
   
