@@ -3,6 +3,27 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+/**
+ * struct flags - struct containing flags to "turn on"
+ * when a flag specifier is passed to _printf()
+ * @plus: flag for the '+' character
+ * @space: flag for the ' ' character
+ * @hash: flag for the '#' character
+ */
+typedef struct flags
+{
+	int plus;
+	int space;
+	int hash;
+} flags_t;
+
+
+/**
+ * struct printHandler - struct to choose the right function depending
+ * on the format specifier passed to _printf()
+ * @t: format specifier
+ * @f: pointer to the correct printing function
+ */
 typedef struct print
 {
   char *t;
@@ -10,10 +31,7 @@ typedef struct print
 }print_t;
 
 int _printf(const char *format, ...);
+int _puts(char *str);
 int _putchar(char c);
-int format_c(va_list valist, char *buffer, int *index);
-int format_s(va_list valist, char *buffer, int *index);
-int print_i(va_list i);
-
-  
-#endif /* MAIN_H */
+int print_string(va_list l, flags_t *f);
+int print_char(va_list l, flags_t *f);
