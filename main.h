@@ -1,8 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdarg.h>
-#include <stdio.h>
 
+<<<<<<< HEAD
 /**
  * struct flags - struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
@@ -35,3 +34,9 @@ int _puts(char *str);
 int _putchar(char c);
 int print_string(va_list l, flags_t *f);
 int print_char(va_list l, flags_t *f);
+=======
+int _putchar(char c);
+int print_percent(va_list l, flags_t *f);
+  
+#endif /* MAIN_H */
+>>>>>>> ca6171d76717ef9ce5cd19a8ac84eb9c443dd562
