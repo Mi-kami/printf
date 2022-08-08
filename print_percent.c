@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_percent - prints a percent
  * @l: va_list arguments from _printf
