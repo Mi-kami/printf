@@ -1,12 +1,9 @@
-#include <stdarg.h>
 #ifndef MAIN_H
 #define MAIN_H
 
-<<<<<<< HEAD
-=======
 #include <stdlib.h>
 #include <stdarg.h>
->>>>>>> bf6462ea9ee3b85c63da7dde467653e757515128
+
 /**
  * struct flags - struct containing flags to "turn on"
  * when a flag specifier is passed to _printf()
