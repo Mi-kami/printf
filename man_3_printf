@@ -61,7 +61,7 @@ Prints a string converted to rot13
 A '%' is written but no argument is converted. The complete version specification is '%%'
 
 .SH EXAMPLE
-To print a sentence containing a string, integer, hexadecimaland octal figures.
+To print a sentence containing a string, integer, hexadecimal and octal figure.
 
 #include "main.h"
 
