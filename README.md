@@ -70,7 +70,7 @@ Output:
 0x7
 ```
 
-# (space)
+## (space)
 
 - A blank is left before a positive number or empty string produced by a signed conversion.
 
@@ -86,7 +86,7 @@ Output:
 7
 ```
 
-# +
+## +
 
 - A sign (`+` or `-`) is always placed before a number produced by signed conversion.
 - Overrides a space flag.
