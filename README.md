@@ -496,6 +496,6 @@ Output:
 
 The `_printf` function emulates functionality of the C standard library function `printf`. This README borrows from the Linux man page [printf(3)](https://linux.die.net/man/3/printf).
 
-This program was written as part of the curriculum for ALX SE Program. ALX Software Engineering Program is an online software engineering program that prepares students for careers in the tech industry using project-based peer learning framework. For more information, visit this [link](https://www.alxafrica.com/).
+This program was written as part of the curriculum for ALX SE Program. ALX Software Engineering Program is an online software engineering program that prepares students for careers in the tech industry using project-based peer learning framework. For more information, visit [alxafrica.com](https://www.alxafrica.com/).
 
 ***
