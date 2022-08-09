@@ -1,5 +1,5 @@
 TH man 3 "9 August 2022" "1.0" "_printf man page"
-.SH NAME
+0;10;1c.SH NAME
 .B _printf
 - Formatted output conversion.
 .SH SYNOPSIS
@@ -69,6 +69,6 @@ _printf("%s %d %s: %X and %o", "the hexadecimal and octal of", 57668, "are as fo
 .SH SEE ALSO
 .I printf(3)
 .SH BUGS
-No known bugs, If one is found sent your report to https://github.com/Mi-kami and
+No known bugs, If one is found sent your report to https://github.com/Mi-kami and http://github.com/PaulPextra
 .SH AUTHOR
 Olofin Deborah, Paul Okoli
